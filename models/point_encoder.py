@@ -1,5 +1,7 @@
 import torch
 import torch.nn as nn
+import sys
+sys.path.append("content/Uni3d-AML")
 from pointnet_ops_lib.pointnet2_ops import pointnet2_utils
 
 import logging
