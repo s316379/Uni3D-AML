@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import sys
 sys.path.append("..")
-from pointnet_ops_lib.pointnet_ops import pointnet2_utils
+import pointnet_ops_lib.pointnet_ops.pointnet2_utils as pointnet2_utils
 
 import logging
 
