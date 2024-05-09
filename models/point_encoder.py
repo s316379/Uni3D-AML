@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from pointnet2_ops import pointnet2_utils
+from pointnet_ops_lib.pointnet2_ops import pointnet2_utils
 
 import logging
 
