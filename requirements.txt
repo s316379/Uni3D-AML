@@ -5,4 +5,3 @@
  easydict 
  h5py 
  ninja
- pillow==6.2.2
