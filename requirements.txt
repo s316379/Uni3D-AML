@@ -1,6 +1,6 @@
  open-clip-torch
  deepspeed
- wandb==0.8.12
+ wandb
  open3d 
  easydict 
  h5py 
