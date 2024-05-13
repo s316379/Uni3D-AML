@@ -1,4 +1,5 @@
 #!/bin/bash
+source activate uni3d
 model=create_uni3d
 
 clip_model="EVA02-E-14-plus" 
