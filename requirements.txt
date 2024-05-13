@@ -2,7 +2,7 @@
  torchvision==0.15.2 
  torchaudio==2.0.2 
  --index-url https://download.pytorch.org/whl/cu118
- open_clip_torch==2.20
+ open-clip-torch==2.20
  deepspeed==0.10.3
  wandb
  open3d==0.17
