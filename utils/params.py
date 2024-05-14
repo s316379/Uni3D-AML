@@ -17,8 +17,12 @@ def parse_args(args):
     parser.add_argument(
         '--model', 
         default='create_uni3d', 
-        type=str)
-
+        type=str
+    )
+    parser.add_argument(
+        "--local-rank", 
+        type=int
+    ) 
     parser.add_argument(
         "--clip-model",
         type=str,
