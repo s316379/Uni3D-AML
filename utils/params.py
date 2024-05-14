@@ -20,7 +20,7 @@ def parse_args(args):
         type=str
     )
     parser.add_argument(
-        "--local-rank", 
+        "--local_rank", 
         type=int,
         default=0
     ) 
