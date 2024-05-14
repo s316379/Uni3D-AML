@@ -21,7 +21,8 @@ def parse_args(args):
     )
     parser.add_argument(
         "--local-rank", 
-        type=int
+        type=int,
+        default=0
     ) 
     parser.add_argument(
         "--clip-model",
